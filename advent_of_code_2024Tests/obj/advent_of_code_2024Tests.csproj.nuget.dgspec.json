@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj": {}
+    "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj": {
+    "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj",
+        "projectUniqueName": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj",
         "projectName": "advent_of_code_2024Tests",
-        "projectPath": "C:\\Workspace\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj",
+        "projectPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj",
         "packagesPath": "C:\\Users\\eliza\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\advent_of_code_2024Tests\\obj\\",
+        "outputPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024.csproj": {
-                "projectPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024.csproj"
+              "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024\\advent_of_code_2024.csproj": {
+                "projectPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024\\advent_of_code_2024.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024.csproj": {
+    "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024\\advent_of_code_2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024.csproj",
+        "projectUniqueName": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024\\advent_of_code_2024.csproj",
         "projectName": "advent_of_code_2024",
-        "projectPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024.csproj",
+        "projectPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024\\advent_of_code_2024.csproj",
         "packagesPath": "C:\\Users\\eliza\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\advent_of_code_2024\\obj\\",
+        "outputPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

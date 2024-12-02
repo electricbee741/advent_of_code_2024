@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = advent_of_code_2024Tests
-build_property.ProjectDir = C:\Workspace\advent_of_code_2024Tests\
+build_property.ProjectDir = C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

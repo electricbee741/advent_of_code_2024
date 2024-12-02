@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "glDtcMbVbWc=",
+  "dgSpecHash": "1wLwpK3I4eg=",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj",
+  "projectFilePath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\advent_of_code_2024Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliza\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\eliza\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
