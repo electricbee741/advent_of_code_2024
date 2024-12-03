@@ -6,14 +6,20 @@ Console.WriteLine("Advent of Code 2024");
 Console.WriteLine("-------------------");
 Console.WriteLine("\n");
 
-//Day 1
+////Day 1
 //Day1 day1 = new Day1("1_real.txt");
 
 //Console.WriteLine("Puzzle 1: " + day1.FindDifferences());
 //Console.WriteLine("Puzzle 2: " + day1.FindSimilarityScore());
 
-//Day 2
-Day2 day2 = new Day2("2_real.txt");
+////Day 2
+//Day2 day2 = new Day2("2_real.txt");
 
 //Console.WriteLine("Puzzle 3: " + day2.GetNumberOfSafeReports());
-Console.WriteLine("Puzzle 4: " + day2.GetNumberOfSafeReportsUsingDampner());
+//Console.WriteLine("Puzzle 4: " + day2.GetNumberOfSafeReportsUsingDampner());
+
+//Day 3
+Day3 day3 = new Day3("3_real.txt");
+
+//Console.WriteLine("Puzzle 5: " + day3.FindSum());
+Console.WriteLine("Puzzle 6: " + day3.FindSumWithConditionals());

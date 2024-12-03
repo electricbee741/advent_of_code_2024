@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace advent_of_code_2024Tests
+namespace advent_of_code_2024.Tests
 {
     [TestClass()]
     public class Day2Tests

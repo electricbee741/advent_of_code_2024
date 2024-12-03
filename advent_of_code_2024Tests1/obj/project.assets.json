@@ -1019,11 +1019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\advent_of_code_2024.Tests.csproj",
-      "projectName": "advent_of_code_2024.Tests",
-      "projectPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\advent_of_code_2024.Tests.csproj",
+      "projectUniqueName": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests1\\advent_of_code_2024Tests1.csproj",
+      "projectName": "advent_of_code_2024Tests1",
+      "projectPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests1\\advent_of_code_2024Tests1.csproj",
       "packagesPath": "C:\\Users\\eliza\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests\\obj\\",
+      "outputPath": "C:\\Workspace\\advent_of_code_2024\\advent_of_code_2024Tests1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
