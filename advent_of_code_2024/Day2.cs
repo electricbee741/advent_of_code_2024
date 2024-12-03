@@ -9,7 +9,6 @@ namespace advent_of_code_2024
     public class Day2
     {
         public List<List<int>> Reports = []; //Each line is "report", each value in line is "level"
-        public List<bool> AreSafe = [];
 
         public Day2(string fileName)
         {
@@ -46,19 +45,63 @@ namespace advent_of_code_2024
 
             for (int i = 0; i < levels.Count - 1; i++)
             {
+                int first = levels[i];
+                int second = levels[i + 1];
                 if (levels[i] == levels[i + 1]) return false; 
                 if (levels[i] < levels[i + 1])
                 {
-                    if (hasDecrease) return false; 
+                    if (hasDecrease || levels[i + 1] - levels[i] > 3) return false; 
                     hasIncrease = true;
                 } else
                 {
-                    if (hasIncrease) return false;
+                    if (hasIncrease || levels[i] - levels[i + 1] > 3) return false;
                     hasDecrease = true;
                 }
             }
 
             return true; 
+        }
+
+        public int GetNumberOfSafeReports()
+        {
+            int numberOfSafeReports = 0;
+
+            foreach (var report in Reports)
+            {
+                if (this.IsLevelSafe(report)) numberOfSafeReports++;
+            }
+
+            return numberOfSafeReports;
+        }
+
+        public int GetNumberOfSafeReportsUsingDampner()
+        {
+            int numberOfSafeReports = 0;
+
+            foreach (var report in Reports)
+            {
+                if (this.IsLevelSafe(report))
+                {
+                    numberOfSafeReports++;
+                } else
+                {
+                    Boolean canBeDampened = false;
+                    int i = 0;
+
+                    do
+                    {
+                        List<int> tempReport = new List<int>(report);
+                        tempReport.RemoveAt(i); 
+                        if (this.IsLevelSafe(tempReport)) canBeDampened = true;
+                        i++;
+                    }
+                    while (!canBeDampened && i < report.Count);
+
+                    if (canBeDampened) numberOfSafeReports++;
+                }
+            }
+
+            return numberOfSafeReports;
         }
     }
 }

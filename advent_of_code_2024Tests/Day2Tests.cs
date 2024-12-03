@@ -19,9 +19,9 @@ namespace advent_of_code_2024Tests
             Day2 day2 = new Day2(Path);
 
             Assert.IsNotNull(day2.Reports);
-            Assert.AreEqual(day2.Reports.Count, 6);
-            Assert.AreEqual(day2.Reports[0][0], 7);
-            Assert.AreEqual(day2.Reports[1][1], 2);
+            Assert.AreEqual(6, day2.Reports.Count);
+            Assert.AreEqual(7, day2.Reports[0][0]);
+            Assert.AreEqual(2, day2.Reports[1][1]);
         }
 
         [TestMethod()]
@@ -29,12 +29,28 @@ namespace advent_of_code_2024Tests
         {
             Day2 day2 = new Day2(Path);
 
-            Assert.AreEqual(day2.IsLevelSafe(day2.Reports[0]), true);
-            Assert.AreEqual(day2.IsLevelSafe(day2.Reports[1]), false);
-            Assert.AreEqual(day2.IsLevelSafe(day2.Reports[2]), false);
-            Assert.AreEqual(day2.IsLevelSafe(day2.Reports[3]), false);
-            Assert.AreEqual(day2.IsLevelSafe(day2.Reports[4]), false);
-            Assert.AreEqual(day2.IsLevelSafe(day2.Reports[5]), true);
+            Assert.AreEqual(true, day2.IsLevelSafe(day2.Reports[0]));
+            Assert.AreEqual(false, day2.IsLevelSafe(day2.Reports[1]));
+            Assert.AreEqual(false, day2.IsLevelSafe(day2.Reports[2]));
+            Assert.AreEqual(false, day2.IsLevelSafe(day2.Reports[3]));
+            Assert.AreEqual(false, day2.IsLevelSafe(day2.Reports[4]));
+            Assert.AreEqual(true, day2.IsLevelSafe(day2.Reports[5]));
+        }
+
+        [TestMethod()]
+        public void GetNumberOfSafeReportsTest()
+        {
+            Day2 day2 = new Day2(Path);
+
+            Assert.AreEqual(2, day2.GetNumberOfSafeReports());
+        }
+
+        [TestMethod()]
+        public void GetNumberOfSafeReportsUsingDampnerTest()
+        {
+            Day2 day2 = new Day2(Path);
+
+            Assert.AreEqual(4, day2.GetNumberOfSafeReportsUsingDampner());
         }
     }
 }
