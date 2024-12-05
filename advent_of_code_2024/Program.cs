@@ -18,8 +18,14 @@ Console.WriteLine("\n");
 //Console.WriteLine("Puzzle 3: " + day2.GetNumberOfSafeReports());
 //Console.WriteLine("Puzzle 4: " + day2.GetNumberOfSafeReportsUsingDampner());
 
-//Day 3
-Day3 day3 = new Day3("3_real.txt");
+////Day 3
+//Day3 day3 = new Day3("3_real.txt");
 
 //Console.WriteLine("Puzzle 5: " + day3.FindSum());
-Console.WriteLine("Puzzle 6: " + day3.FindSumWithConditionals());
+//Console.WriteLine("Puzzle 6: " + day3.FindSumWithConditionals());
+
+//Day 4
+Day4 day4 = new Day4("4_real.txt");
+
+//Console.WriteLine("Puzzle 7: " + day4.FindWordCount());
+Console.WriteLine("Puzzle 8: " + day4.FindMasX());
