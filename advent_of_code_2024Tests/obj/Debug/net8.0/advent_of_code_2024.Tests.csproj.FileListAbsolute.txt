@@ -1,12 +1,12 @@
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_advent_of_code_2024.Tests
+C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\testhost.dll
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\advent_of_code_2024.deps.json
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\advent_of_code_2024.runtimeconfig.json
+C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\advent_of_code_2024.exe
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\testhost.exe
-C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\testhost.dll
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\Microsoft.TestPlatform.AdapterUtilities.dll
-C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\advent_of_code_2024.exe
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\advent_of_code_2024.Tests.deps.json
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\advent_of_code_2024.Tests.runtimeconfig.json
 C:\Workspace\advent_of_code_2024\advent_of_code_2024Tests\bin\Debug\net8.0\advent_of_code_2024.Tests.dll

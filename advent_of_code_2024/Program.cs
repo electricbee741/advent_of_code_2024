@@ -24,8 +24,14 @@ Console.WriteLine("\n");
 //Console.WriteLine("Puzzle 5: " + day3.FindSum());
 //Console.WriteLine("Puzzle 6: " + day3.FindSumWithConditionals());
 
-//Day 4
-Day4 day4 = new Day4("4_real.txt");
+////Day 4
+//Day4 day4 = new Day4("4_real.txt");
 
 //Console.WriteLine("Puzzle 7: " + day4.FindWordCount());
-Console.WriteLine("Puzzle 8: " + day4.FindMasX());
+//Console.WriteLine("Puzzle 8: " + day4.FindMasX());
+
+////Day 5
+Day5 day5 = new Day5("5_real.txt");
+
+//Console.WriteLine("Puzzle 9: " + day5.FindSumOfValidMiddlePages());
+Console.WriteLine("Puzzle 10: " + day5.FindSumOfInvalidMiddlePages());
