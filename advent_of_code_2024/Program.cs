@@ -37,7 +37,13 @@ Console.WriteLine("\n");
 //Console.WriteLine("Puzzle 10: " + day5.FindSumOfInvalidMiddlePages());
 
 ////Day 6
-Day6 day6 = new Day6("6_real.txt");
+//Day6 day6 = new Day6("6_real.txt");
 
 //Console.WriteLine("Puzzle 11: " + day6.Move());
-Console.WriteLine("Puzzle 12: " + day6.AddObstacles());
+//Console.WriteLine("Puzzle 12: " + day6.AddObstacles());
+
+////Day 7
+Day7 day7 = new Day7("7_real.txt");
+
+//Console.WriteLine("Puzzle 13: " + day7.FindTotalCalibration());
+Console.WriteLine("Puzzle 14: " + day7.FindTotalCalibration());
