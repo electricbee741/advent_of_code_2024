@@ -31,7 +31,13 @@ Console.WriteLine("\n");
 //Console.WriteLine("Puzzle 8: " + day4.FindMasX());
 
 ////Day 5
-Day5 day5 = new Day5("5_real.txt");
+//Day5 day5 = new Day5("5_real.txt");
 
 //Console.WriteLine("Puzzle 9: " + day5.FindSumOfValidMiddlePages());
-Console.WriteLine("Puzzle 10: " + day5.FindSumOfInvalidMiddlePages());
+//Console.WriteLine("Puzzle 10: " + day5.FindSumOfInvalidMiddlePages());
+
+////Day 6
+Day6 day6 = new Day6("6_real.txt");
+
+//Console.WriteLine("Puzzle 11: " + day6.Move());
+Console.WriteLine("Puzzle 12: " + day6.AddObstacles());
